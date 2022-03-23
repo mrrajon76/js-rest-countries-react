@@ -20,7 +20,7 @@
 }
 .country-block p {
   font-weight: 400;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 @media only screen and (max-width: 1050px) {
   .country-block img {
