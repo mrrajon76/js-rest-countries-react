@@ -1,6 +1,6 @@
 .header-container {
   background-color: #ff8800;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .header-container img {
   width: 90px;
@@ -11,4 +11,12 @@
   text-transform: uppercase;
   font-weight: 800;
   margin: 10px 0;
+}
+@media only screen and (max-width: 468px) {
+  .header-container img {
+    width: 80px;
+  }
+  .header-container h1 {
+    font-size: 30px;
+  }
 }

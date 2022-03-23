@@ -22,3 +22,13 @@
   font-weight: 400;
   margin: 10px 0;
 }
+@media only screen and (max-width: 1050px) {
+  .country-block img {
+    max-height: 120px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .country-block img {
+    max-height: 100px;
+  }
+}
