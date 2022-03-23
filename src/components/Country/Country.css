@@ -1,0 +1,12 @@
+.country-block {
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px #cecece;
+}
+.country-block img {
+  max-height: 160px;
+}
+.country-block h5 {
+  margin: 10px 0;
+}
