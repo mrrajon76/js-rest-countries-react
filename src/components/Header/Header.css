@@ -3,11 +3,12 @@
   padding: 10px;
 }
 .header-container img {
-  width: 120px;
+  width: 90px;
 }
 .header-container h1 {
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 800;
+  margin: 10px 0;
 }
