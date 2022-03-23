@@ -1,0 +1,13 @@
+.header-container {
+  background-color: #ff8800;
+  padding: 10px;
+}
+.header-container img {
+  width: 120px;
+}
+.header-container h1 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}

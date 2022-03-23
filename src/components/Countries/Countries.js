@@ -12,15 +12,10 @@ const Countries = () => {
     }, []);
 
     return (
-        <div>
-            <h1>Know about all the countries</h1>
-            <h3>Total Countries: {countries.length}</h3>
-            <hr />
-            <div className='countries'>
-                {
-                    countries.map(country => <Country country={country}></Country>)
-                }
-            </div>
+        <div className='countries'>
+            {
+                countries.map(country => <Country country={country}></Country>)
+            }
         </div>
     );
 };
